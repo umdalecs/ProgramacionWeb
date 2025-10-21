@@ -1,0 +1,30 @@
+
+.container {
+  background-color: khaki;
+  border: 1px solid black;
+  height: 400px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  border: 3px solid black;
+  font-size: 30px;
+  margin:15px;
+  width: 300px;
+}
+
+.box1 {
+
+}
+
+.box2 {
+
+}
+
+.box3 {
+
+}
