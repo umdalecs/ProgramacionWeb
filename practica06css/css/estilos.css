@@ -1,0 +1,99 @@
+html{
+    --color-azul: rgb(75, 95, 213);
+    --color-blanco: white;
+    --color-enlace: rgb(162, 156, 231);
+    --fondo-ayuda: rgb(218, 219, 241);
+    --color-negro: black;
+}
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0px auto;
+    width: 1165px;
+}
+.header{
+    background: var(--color-negro);
+    color: var(--color-blanco);
+    padding: 10px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, max-content));
+    justify-content: space-around;
+}
+.header img{
+    vertical-align: middle;
+    width: 40px;
+}
+.header input[type="submit"]{
+    background: var(--color-negro);
+    border: 1px solid var(--color-blanco);
+    border-radius: 5px;
+    color: var(--color-blanco);
+    padding: 5px 10px;
+}
+.header input[type="button"]{
+    background: var(--color-azul);
+    border: 1px solid var(--color-azul);
+    border-radius: 5px;
+    color: var(--color-blanco);
+    padding: 5px 10px;
+}
+.help{
+    background: var(--fondo-ayuda);
+    height: 200px;
+    font-size: 2em;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.help input{
+    font-size: 0.5em;
+    height: 50px;
+    width: 400px;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(auto, max-content));
+    gap: 60px;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.main img{
+    margin-right: 10px;
+    width: 50px;
+}
+.main-info{
+    display: flex;
+    width: 350px;
+}
+.main-titulo{
+    font-weight: bold;
+}
+.main-link{
+    color: var(--color-enlace);
+}
+.footer{
+    background: var(--color-negro);
+    color: var(--color-blanco);
+    display: grid;
+    grid-template-columns: repeat(5, minmax(auto, max-content));
+    justify-content: space-evenly;
+    justify-items: center;
+    height: 250px;
+    margin-top: 40px;
+}
+.footer article{
+    padding: 20px 0px;
+}
+.footer img{
+    width: 40px;
+}
+.footer {
+    font-weight: bold;
+}
+.footer-subtitulo{
+    font-weight: bold;
+}
+.copy-info{
+    align-self: end;
+}
