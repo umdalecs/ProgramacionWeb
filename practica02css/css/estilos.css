@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px; /* 1em */
+  margin: 0 auto; /* centrar */
+  /* solicitud de cliente */
+  max-width: 1078px; /* tamaño de un ipad horizontal */
+}
+
+header input {
+  float: right;
+  margin-right: -200px;
+  margin-top: 15px;
+}
+
+#paint {
+  float: right;
+}
+
+#granthams {
+  margin-left: 25px;
+  margin-top: 25px;
+}
+
+header nav ul li {
+  color: gray;
+  display: inline-block;
+  font-size: 1.8em;
+  margin-right: 15px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 2px;
+}
+
+header nav {
+  margin-left: 220px;
+}
+
+#primerseccion {
+  margin-top: 60px;
+  height: 318px;
+}
+
+#primerseccion article {
+  vertical-align: top;
+}
+
+#secc01art01 {
+  width: 61%;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#secc01art02 {
+  width: 30%;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+#secc01art02 ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+#secc01art02 ul li::before {
+  color: fuchsia;
+  content: "• ";
+}
+
+.letragrande {
+  font-size: 3.5em;
+}
+
+.letramediana {
+    font-size: 2em;
+}
+
+.colorrosa {
+  color: #ff0099;
+}
+
+.colorverde {
+  color: #8BC500;
+}
+
+.colorazul {
+  color: #0000ff;
+}
+
+.nito {
+  font-weight: bold;
+}
+
+#bgoffer {
+  position: relative;
+  top: -410px;
+  left: -35px;
+}
+
+#segundaseccion article {
+    padding-right: 130px;
+    text-align: right;
+}
+
+#terceraseccion article {
+    display: inline-block;
+    padding-left: 8px;
+    vertical-align: top;
+    width: 23%;
+}
+
+#terceraseccion article img {
+    vertical-align: middle;
+}
+
+#secc03art04 {
+    padding-top: 40px;
+}
+
+#secc03art04 input {
+    border-radius: 5px;
+}
+
+#secc03art04 input[type="button"] {
+    background: #8BC500;
+    color: white;
+}
