@@ -1,0 +1,131 @@
+:root {
+    --color-verde: #849c3c;
+    --color-negro: #353535;
+    --color-rojo: #D33040;
+    --color-gris: lightgray;
+    --fondo-negro: #2c2c2c;
+    --color-linea: #949494;
+    --color-azul: lightblue;
+    --color-blanco: white;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header input {
+    text-align: right;
+}
+
+header nav ul {
+    margin-left: -37px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 8px 14px;
+    width: 17.3%;
+    text-align: center;
+    margin: 0 -4px;
+}
+
+header nav ul li:nth-child(2) {
+    background-color: var(--color-verde);
+}
+
+header nav ul li:nth-child(3) {
+    background-color: var(--color-negro);
+}
+
+header nav ul li:nth-child(4) {
+    background-color: var(--color-rojo);
+}
+
+header nav ul li:nth-child(5) {
+    background-color: var(--color-gris);
+}
+
+section, footer {
+    background-color: var(--fondo-negro);
+}
+
+.letra-azul {
+    color: var(--color-azul);
+}
+
+.letra-blanca {
+    color: var(--color-blanco);
+}
+
+.letra-gris {
+    color: var(--color-linea);
+}
+
+section article img {
+    width: 150px;
+}
+
+section article {
+    height: 380px;
+    width: 17.9%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 18px 8px;
+    margin: 0 -2px;
+}
+
+section article ul {
+    list-style: none;
+}
+
+section article ul li {
+    margin-bottom: 10px;
+}
+
+section article:nth-child(2) {
+    background-color: var(--color-verde);
+}
+
+section article:nth-child(3) {
+    background-color: var(--color-negro);
+}
+
+section article:nth-child(4) {
+    background-color: var(--color-rojo);
+}
+
+section article:nth-child(5) {
+    background-color: var(--color-gris);
+}
+
+.tam-menu-lateral {
+    font-size: 1.1em;
+}
+
+.tam-tarjetas {
+    font-size: 1.7em;
+}
+
+footer article {
+    display: inline-block;
+    padding: 10px;
+    width: 30.1%;
+    vertical-align: top;
+    text-align: center;
+}
+
+hr {
+    border-style: dotted;
+    color: var(--color-linea);
+}
+
+footer img {
+    width: 300px;
+}
+
+.read-more {
+    margin-left: 220px;
+}
