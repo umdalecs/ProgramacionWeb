@@ -1,0 +1,138 @@
+
+:root {
+  --night-blue: rgb(10, 10, 60);
+  --purple: rgb(113 85 248);
+  --green: rgb(91 194 169);
+  --gray: rgb(148 148 175);
+  --light-gray: rgb(240 242 245);
+  --dark-gray: rgb(156, 156, 170);
+  --secondary-background: rgb(238 241 250);
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  font-family: sans-serif;
+  font-size: 16px;
+  grid-template-columns: 250px 1fr 300px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: var(--night-blue);
+  align-items: center;
+  padding: 3em;
+}
+
+.left > article:first-child {
+  align-self: start;
+}
+
+.left > article:first-child > img {
+  border-inline: 2px solid var(--light-gray);
+  width: 30px;
+  height: 30px;
+}
+
+.left > article:last-child {
+  color: var(--light-gray);
+  background-color: var(--dark-gray);
+  padding: 2em;
+  border-radius: 100%;
+}
+
+.left nav  ul {
+  display: flex;
+  flex-direction: column;
+  color: var(--gray);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+.left nav ul li {
+  margin-block: 1em;
+  border-bottom: 2px solid var(--light-gray);
+  font-weight: bolder;
+}
+
+.left nav ul .active {
+  color: var(--green);
+  border-bottom: 2px solid var(--green);
+}
+
+main {
+  padding-inline: 3em;
+  overflow-y: auto;
+}
+
+main > h2 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  margin-top: 2em;
+  border-bottom: 4px solid black;
+}
+
+.filters {
+  display: flex;
+  gap: .5em;
+  list-style: none;
+  padding-left: 0;
+}
+
+.filters li {
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+
+  padding: .5em;
+  border-radius: .25em;
+}
+
+.filters .active {
+  color: var(--light-gray);
+  background-color: var(--purple);
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+
+.galeria > article {
+  padding-inline: 1em;
+}
+
+.galeria > article > img {
+  height: auto;
+  width: 100%;
+}
+
+.right {
+  padding: 1.5em;
+  background-color: var(--secondary-background);
+  position: relative;
+}
+.right span {
+  color: var(--purple);
+  font-weight: bolder;
+  position: absolute;
+  right: 2em;
+}
+
+.right ul {
+  list-style: square;
+  margin-block: 1em;
+}
+
+.right a {
+  color: var(--purple);
+}
