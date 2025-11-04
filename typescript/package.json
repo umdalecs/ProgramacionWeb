@@ -1,0 +1,23 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "calculadora de ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "programación",
+    "web",
+    "calculadora"
+  ],
+  "author": "Materia de programación web",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "ts-node": "10.9.2",
+    "typescript": "5.9.3"
+  }
+}
